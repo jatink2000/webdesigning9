@@ -14,10 +14,10 @@ h1{
 
     /* word-spacing: 90px;
     letter-spacing: 30px; */
-    line-height: 80px;
+    /* line-height: 80px; */
 
     /* capitalize , lowercase,uppercase  */
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
 
     /* first : left to right 
     second : top to bottom 
@@ -31,12 +31,12 @@ h1{
     /* text-shadow: -5px -8px 3px red; */
 
     /* underline,line-through , overline  */
-    text-decoration-line:underline ;
+    /* text-decoration-line:underline ; */
     /* double,solid , dashed,dotted  */
-    text-decoration-style:double ;
-    text-decoration-color: blue ;
+    /* text-decoration-style:double ; */
+    /* text-decoration-color: blue ; */
 
-    font-size: 32px;
+    /* font-size: 32px; */
 
 }
 
@@ -55,18 +55,18 @@ p{
     border-left: 5px dotted rgb(247, 0, 255); */
 
 
-    border: 5px solid gray;
+    /* border: 5px solid gray; */
     /* border-top: none;
     border-left: none; */
 
 
     /* outline --------------- */
     /* outline: 2px dotted orangered; */
-    outline-offset: -10px;
+    /* outline-offset: -10px; */
 }
 
 
-/* padding : inside the border space between order and element .   */
+/* padding : inside the border space between border and element .   */
 p{
     /* padding-top: 50px;
     padding-right: 50px;
@@ -89,9 +89,112 @@ p{
 
 
     /* clock wise  */
-    /* padding:  10px 60px 30px 90px; */
+    /* padding:  10px 60px 30px 90px;
+    border: 2px solid black; */
 
 
-    padding: 50px; 
-    padding-top: 0;
+    /* padding: 50px; 
+    padding-top: 0; */
+}
+
+
+/* margin : outside the border space between two elements .  */
+
+p{
+    /* margin-top:50px ;
+    margin-left:50px ;
+    margin-right:50px ;
+    margin-bottom:50px ; */
+
+    /* all sides  */
+    /* margin: 90px; */
+
+
+    /* first : top/bottom 
+    second : left /right */
+    /* margin: 30px 90px; */
+
+
+    /* first : top 
+    second : left /right 
+    third : bottom  */
+    /* margin: 10px 50px 70px; */
+
+
+    /* clock wise :  */
+    /* margin: 10px 40px 70px 90px; */
+
+
+    /* margin: 50px; 
+    margin-top: 0;
+    margin-left: 0; */
+
+}
+
+
+
+
+/* selectors : selectors are use to select the html element for design /style the element .  
+there are 5 types of selectors : 
+1. element selectors / tag selectors : 
+2. class selectors : 
+3. id selectors : 
+4. grouping selectors : 
+5. universal selectors : */
+
+
+
+/* 1. element selectors / tag selectors :  */
+
+/* h3{
+    color: red;
+} */
+
+/* 2. class selectors : .   */
+
+/* .groot{
+    color: green;
+} */
+
+
+/* 3. id selectors : # */
+
+/* #groot2{
+    color: aqua;
+} */
+
+
+/* 4. grouping selectors: ,  */
+
+/* #groot2,#groot1{
+    color: aqua;
+    padding: 20px;
+    border: 2px solid black;
+} 
+
+#groot3{
+    color: orangered;
+} */
+
+
+/* 5. universal selectors : *  , all element / complete html        */
+
+*{
+    color: brown;
+    margin: 5px;
+}
+
+
+
+
+
+/* overflow : the overflow property is used to controls the big data .   */
+
+.over{
+    border: 2px solid black;
+    width: 500px;
+    height: 300px;
+
+    /* hidden , visible (default) , scroll , auto  */
+    overflow: auto;
 }
