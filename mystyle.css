@@ -179,10 +179,10 @@ there are 5 types of selectors :
 
 /* 5. universal selectors : *  , all element / complete html        */
 
-*{
+/* *{
     color: brown;
     margin: 5px;
-}
+} */
 
 
 
@@ -190,11 +190,69 @@ there are 5 types of selectors :
 
 /* overflow : the overflow property is used to controls the big data .   */
 
-.over{
+/* .over{
     border: 2px solid black;
     width: 500px;
     height: 300px;
-
-    /* hidden , visible (default) , scroll , auto  */
+    hidden , visible (default) , scroll , auto 
     overflow: auto;
+} */
+
+
+/* -------------------------------------------------- */
+
+
+/* background image : the background image property is used to display the background image of our element .  */
+
+
+
+body{
+    background-image: url(https://img.freepik.com/free-photo/lavender-field-sunset-near-valensole_268835-3910.jpg?semt=ais_user_personalization&w=740&q=80);
+
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    /* background-position: -20px -40px; */
+
+    background-attachment: fixed;
+
+    color: red;
 }
+
+
+/* border-radius :  */
+
+
+.over{
+    border: 2px solid black;
+
+    border-radius: 10px 90px ;
+    padding: 30px;
+}
+
+.p1{
+    width: 100px;
+    height: 100px;
+    border: 2px solid green;
+
+    border-radius: 50%;
+}
+
+
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+
+}
+
+
+/* opacity : the opacity property specify the transparency of an element . 
+    value : 0-1 .   */
+
+    img{
+        opacity: 1;
+    }
+
