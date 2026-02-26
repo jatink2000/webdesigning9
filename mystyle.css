@@ -206,7 +206,7 @@ there are 5 types of selectors :
 
 
 
-body{
+/* body{
     background-image: url(https://img.freepik.com/free-photo/lavender-field-sunset-near-valensole_268835-3910.jpg?semt=ais_user_personalization&w=740&q=80);
 
 
@@ -214,18 +214,18 @@ body{
 
     background-size: cover;
 
-    /* background-position: -20px -40px; */
+    background-position: -20px -40px;
 
     background-attachment: fixed;
 
     color: red;
-}
+} */
 
 
 /* border-radius :  */
 
 
-.over{
+/* .over{
     border: 2px solid black;
 
     border-radius: 10px 90px ;
@@ -246,13 +246,94 @@ img{
     height: 300px;
     border-radius: 50%;
 
-}
+} */
 
 
 /* opacity : the opacity property specify the transparency of an element . 
     value : 0-1 .   */
 
-    img{
+    /* img{
         opacity: 1;
+    } */
+
+
+
+
+    /* --------------------------------- */
+
+    *{
+        margin: 0;
     }
 
+    .blue{
+        background-color: blue;
+        width: 100px;
+        height: 100px;
+    }
+
+    .red{
+        background-color: red;
+        width: 150px;
+        height: 150px;
+        margin-bottom:10px ;
+    }
+
+    .yellow{
+        background-color: yellow;
+        width: 200px;
+        height: 200px;
+    }
+
+
+
+    .red1{
+        background-color: red;
+        width: 300px;
+        height: 300px;
+    }
+
+
+    .yellow1{
+        background-color: yellow;
+        width: 100px;
+        height: 100px;
+    }
+
+    .blue1{
+        background-color: blue;
+        width: 100px;
+        height: 100px;
+    }
+
+
+    .home{
+        background-color: rgb(28, 28, 179);
+        border: 2px solid black;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+        margin: 10px 0;
+    }
+
+
+    .main{
+        border: 2px solid black;
+        padding: 30px 10px;
+        width: 40%;
+        margin: auto;
+    }
+
+    .p1{
+        border: 2px solid gray;
+        width: 400px;
+        padding: 10px;
+    }
+
+    .s1{
+        color: red;
+        font-size: 20px;
+    }
+
+    .s2{
+        color: blue;
+    }
