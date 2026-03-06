@@ -9,8 +9,8 @@ h6{
 
 
 h1{
-    color: rgb(255, 255, 0);
-    background-color: green;
+    /* color: rgb(255, 255, 0);
+    background-color: green; */
 
     /* word-spacing: 90px;
     letter-spacing: 30px; */
@@ -342,7 +342,7 @@ img{
 
     /* ---------------------------------------------- */
 
-    img{
+    /* img{
         width: 50px;
         height: 50px;
         border-radius: 50%;
@@ -394,22 +394,116 @@ img{
 
     .main{
         position: relative;
-    }
+    } */
 
 
 
-    .color{
+    /* .color{
         padding: 50px;
-       /* background-image: linear-gradient(to left, red,green,blue,yellow); */
+       background-image: linear-gradient(to left, red,green,blue,yellow);
 
 
-       /* background-image:repeating-linear-gradient( red,green 10%,blue 30%); */
+       background-image:repeating-linear-gradient( red,green 10%,blue 30%);
 
 
-       /* background-image:repeating-radial-gradient(red,green 10%,blue 20%); */
+       background-image:repeating-radial-gradient(red,green 10%,blue 20%);
 
        background-image: conic-gradient(red,green,blue);
        width: 400px;
        height: 400px;
 
+    } */
+
+
+
+    /* ------------------------------------  */
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .red{
+        background-color: red;
+        border: 2px solid black;
+        width: 24%;
+        padding: 50px 0;
+    }
+
+    .green{
+        background-color: green;
+        border: 2px solid black;
+        width: 24%;
+        padding: 50px 0;
+
+
+    }
+
+    .blue{
+         background-color: blue;
+        border: 2px solid black;
+        width: 24%;
+        padding: 50px 0;
+
+
+    }
+
+    .yellow{
+         background-color: yellow;
+        border: 2px solid black;
+        width: 24%;
+        padding: 50px 0;
+
+
+    }
+
+    .main{
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+
+
+
+    .layout{
+        width: 80%;
+        margin: auto;
+    }
+
+    .header{
+        background-color: green;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .left{
+        background-color: palevioletred;
+        width: 20%;
+        text-align: center;
+        color: blue;
+        padding: 150px 0;
+    }
+
+     .right{
+        background-color: greenyellow;
+        width: 20%;
+        text-align: center;
+        color: blue;
+        padding: 150px 0;
+
+
+    }
+    .center{
+        background-color: red;
+        width: 60%;
+        text-align: center;
+        color: blue;
+        padding: 150px 0;
+
+    }
+
+    .main2{
+        display: flex;
     }
