@@ -423,7 +423,7 @@ img{
         box-sizing: border-box;
     }
 
-    .red{
+    /* .red{
         background-color: red;
         border: 2px solid black;
         width: 24%;
@@ -506,4 +506,58 @@ img{
 
     .main2{
         display: flex;
+    } */
+
+
+
+
+
+
+
+
+    /* ----------------------------------------  */
+
+
+    .layout4{
+        text-align: center;
+        text-transform: capitalize;
+        width: 50%;
+        margin: auto;
+    }
+
+
+    .header{
+        background-color: green;
+        border: 1px solid gray;
+        padding: 20px 0;
+        margin-bottom: 20px;
+    }
+
+
+    .left{
+        border: 1px solid gray;
+        width: 20%;
+        padding: 120px 0;
+    }
+
+
+    .center{
+        border: 1px solid gray;
+        width: 56%;
+        padding: 120px 0;
+        background-color: gray;
+    }
+
+    .main{
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .footer{
+        background-color: greenyellow;
+        border: 1px solid gray;
+        padding: 20px 0;
+        margin-top: 20px;
+
     }
