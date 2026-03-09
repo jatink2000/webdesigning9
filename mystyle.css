@@ -518,7 +518,7 @@ img{
     /* ----------------------------------------  */
 
 
-    .layout4{
+    /* .layout4{
         text-align: center;
         text-transform: capitalize;
         width: 50%;
@@ -560,4 +560,81 @@ img{
         padding: 20px 0;
         margin-top: 20px;
 
+    } */
+
+
+
+    /* ---------------------------------------------- */
+
+    body{
+        background-color: black;
+        color: white;
+    }
+    .main{
+        border: 2px solid white;
+        padding: 10px;
+        border-radius: 10px;
+        display: flex;
+        width: 50%;
+        margin: auto;
+    }
+
+    .left{
+        border: 2px solid red;
+        padding: 10px;
+        border-radius: 10px;
+        width: 50%;
+    }
+
+
+    .green{
+        background-color: green;
+        padding: 10px 10px 220px;
+        border-radius: 10px;
+        font-size: 40px;
+    }
+
+
+    .blue{
+        background-color: blue;
+        padding: 10px 10px 220px;
+        border-radius: 10px;
+        font-size: 40px;
+    }
+
+
+    
+
+    .main2{
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        text-align: center;
+        width: 50%;
+        margin: auto;
+    }
+
+    .left2{
+        width: 58%;
+    }
+
+    .right2{
+        background-color: palevioletred;
+        border: 2px solid black;
+        width: 40%;
+        padding: 100px 0;
+    }
+
+    .section{
+        background-color: orange;
+        border: 2px solid black;
+        padding: 40px 0;
+        margin-bottom: 10px;
+    }
+
+    .article{
+        background-color: orangered;
+        border: 2px solid black;
+        padding: 40px 0;
     }
