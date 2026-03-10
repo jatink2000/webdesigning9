@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0 ;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(30, 30, 30);
+    color: gray;
+    padding: 0 50px;
+}
+
+li:hover{
+    color: white;
+}
+
+li{
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 10px;
+}
+.right{
+    padding: 3px 0;
+}
+
+input{
+    padding: 7px 0;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+}
+
+button{
+    padding: 5px 15px;
+}
+
+.active{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+/* Engage -------------------------- */
+
+.Engage{
+    background-color: yellowgreen;
+    color: greenyellow;
+    text-align: center;
+    padding: 50px 0;
+}
+
+
+.Engage h2{
+    font-size: 60px;
+}
+
+.Engage p{
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+
+.Engage button{
+    background-color: #337ab7;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+}
+
+.Engage button:hover{
+     background-color: #365e81;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Procrastinate ---------------- */
+
+.Procrastinate {
+    display: flex;
+    justify-content: space-between;
+    background-color: goldenrod;
+     padding: 50px;
+}
+.Procrastinate img{
+    border-radius: 50%;
+}
+
+.Procrastinate .box1{
+    width: 31%;
+    text-align: center;
+}
+
+.Procrastinate h4{
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+
+.Procrastinate p{
+    margin-bottom: 10px;
+}
+
+.Procrastinate button{
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
