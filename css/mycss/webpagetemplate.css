@@ -6,6 +6,8 @@
 
 
 .navbar{
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: space-between;
     background-color: rgb(30, 30, 30);
@@ -82,24 +84,56 @@ button{
 
 
 
+/* Collaboration ---------------------- */
+.Collaboration{
+    padding: 0 50px;
+    margin: 50px 0;
+}
 
+.Collaboration .textbox{
+    text-align: center;
+    color: rgb(172, 170, 170);
+}
 
+.Collaboration .textbox h4{
+    margin-bottom: 10px;
+}
 
+.Collaboration .Collaboration-in .box1{
+    width: 32%;
+    text-align: center;
+}
 
+.Collaboration .Collaboration-in .box1 img{
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    border-radius: 10px;
+}
 
+.Collaboration .Collaboration-in{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
 
+.Collaboration .Collaboration-in .box1 h3{
+    color:#337ab7 ;
+    margin: 10px 0;
+}
 
+.Collaboration .Collaboration-in .box1 h3:hover{
+    text-decoration-line:underline ;
+    text-decoration-style:solid ;
+    text-decoration-color:#22435f  ;
+    color: #22435f;
+}
 
+.Collaboration .Collaboration-in .box1 p{
+     color: rgb(172, 170, 170);
+     line-height: 20px;
 
-
-
-
-
-
-
-
-
-
+}
 
 
 /* Procrastinate ---------------- */
@@ -134,4 +168,29 @@ button{
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
+}
+
+
+
+/* footer ----------------- */
+
+.footer{
+    text-align: center;
+      color: rgb(172, 170, 170);
+      margin: 50px 0;
+}
+
+.footer p{
+    margin-bottom: 10px;
+}
+
+.sp{
+    color: #337ab7;
+}
+
+.sp:hover{
+    color: #22435f;
+     text-decoration-line:underline ;
+    text-decoration-style:solid ;
+    text-decoration-color:#22435f  ;
 }
